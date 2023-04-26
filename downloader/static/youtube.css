@@ -42,6 +42,21 @@
     font-weight: 400;
     color: white;
 }
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: green;
+    border-radius: 10%;
+  }
+  
+  .progress {
+    width: 0%;
+    height: 100%;
+    background-color: #4CAF50;
+    transition: width 0.5s ease-in-out;
+    border-radius: 3rem;
+  }
+  
  /* media query for small screeen  */
 @media(max-width:568px){
     .row form{
